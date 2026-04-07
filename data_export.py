@@ -3,7 +3,7 @@ import pyodbc
 import json
 
 # Ruta del archivo transformado
-archivo_transf = 'Data_General_transformada.xlsx'
+archivo_transf = 'Data_General_transformadaxxxx.xlsx'
 
 try:
 
