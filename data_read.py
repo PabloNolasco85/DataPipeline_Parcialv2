@@ -7,7 +7,7 @@ archivo_base = 'DataGeneral.xlsx'
 archivo_csv = 'DataGeneral_read.csv'
 try:
 
-    # Leer el archivo BASE
+    # Leer el archivo excel
     df = pd.read_excel(archivo_base, sheet_name="BD_GENERAL" , engine='openpyxl')
 
     # Guardar los datos en un archivo CSV temporal
